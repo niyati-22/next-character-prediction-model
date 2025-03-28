@@ -14,16 +14,15 @@ This repository contains a character-level Recurrent Neural Network (RNN) implem
 
 - Python 3.x
 - NumPy
+- PyTorch
 
 ---
 
 ## Files
 
-- `modularizedRNN.py`: Main script for training and testing the model.
-- `input.txt`: Training data file.
-- `test.txt`: Test data file.
-- `predictions.txt`: Output file containing predictions from the test phase.
-- `model_ckpts/`: Directory to save and load the model.
+- `src/modularizedLSTM.py`: Main script for training and testing the model.
+- `example/preds.txt`: Output file containing predictions from the test phase.
+- `work/`: Directory to save and load the model.
 
 ---
 
